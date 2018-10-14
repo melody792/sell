@@ -30,12 +30,6 @@ public class ProductCategoryRepositoryTest {
     }
 
     @Test
-    public void findAll(){
-        List<ProductCategory> productCategories = repository.findAll();
-        productCategories.stream().forEach(productCategory -> System.out.println(productCategory.toString()));
-    }
-
-    @Test
     @Transactional
     public void saveTest() {
         ProductCategory productCategory = new ProductCategory("男生最爱", 4);
