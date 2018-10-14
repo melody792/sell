@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.imooc</groupId>
-	<artifactId>sell</artifactId>
+	<artifactId>weixin_sell</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>sell</name>
+	<name>weixin_sell</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

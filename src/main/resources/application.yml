@@ -7,9 +7,10 @@ spring:
   jpa:
     show-sql: true
 server:
-  context-path: /sell
-logging:
-  pattern:
-    console: "%d - %msg%n"
-    path: 
-    file:
+  context-path: /weixin_sell
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  #path: C:\0pzb\study\logs\ #默认spring.log
+#  file: C:\0pzb\study\log\logger.log
+#  level: debug
