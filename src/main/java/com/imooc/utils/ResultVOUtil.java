@@ -9,7 +9,9 @@ import com.imooc.VO.ResultVO;
  * @create 2018-10-14 5:01 PM
  */
 public class ResultVOUtil {
+    enum x {X};
     public static ResultVO success(Object object) {
+
         ResultVO resultVO = new ResultVO();
         resultVO.setData(object);
         resultVO.setCode(0);
