@@ -12,6 +12,7 @@ target/
 *.ipr
 *.iml
 *.iws
+application.yml
 
 # temp ignore
 *.log
